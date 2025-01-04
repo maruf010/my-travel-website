@@ -1,8 +1,11 @@
+*{
+    margin: 0;
+}
 header{
     color: beige;
     background-color: darkred;
     text-align: center;
-    padding: 1px;
+    padding: 15px;
     margin-bottom: 10px;
 }
 .first{
@@ -10,17 +13,31 @@ header{
     background-color: lightseagreen;
     padding: 5px;
     border-radius: 25px 0px;
-    margin-bottom: 15px;
-    box-shadow: 5px 5px 10px lightblue;
+    margin: 15px;
+    box-shadow: 5px 5px 10px rgb(24, 202, 193);
+    /* width: 400px; */
+    /* height: fit-content; */
+    /* display: flex; */
+}
+.first-header{
+    /* text-align: right; */
+    text-decoration: underline whitesmoke;
+}
+.flex-boxx{
+    /* display: flex; */
 }
 .second{
     color: bisque;
     background-color: rgb(73, 10, 73);
     padding: 5px;
     border-radius: 25px 0px 25px 0px;
-    margin-bottom: 15px;
+    margin: 15px;
     box-shadow: 5px 5px 10px rgb(222, 83, 222);
 
+}
+.second-header{
+    text-align: right;
+    text-decoration: underline whitesmoke;
 }
 .third{
     color: blanchedalmond;
@@ -28,5 +45,17 @@ header{
     padding: 10px;
     border-radius: 25px 0px 25px 0px;
     box-shadow: 5px 5px 10px gray;
-    margin-bottom: ;
+    margin: 15px;
+}
+img{
+    border: 3px solid rgb(184, 206, 222);
+    border-radius: 5px;
+    margin: 2px;
+    width: auto;
+}
+.container-page{
+    /* display: flex; */
+}
+.flex-box{
+    display: flex;
 }
